@@ -1,4 +1,6 @@
-(it's my first extension)
+(it's my first extension, all this is based on the tutorial by sebastian benz with his tutorial.hello-world)
+
+https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/functional-samples/tutorial.hello-world
 
 # anti-popup-for-accept-yt-ads
 Delete the popup wall to pay or accepte ads
