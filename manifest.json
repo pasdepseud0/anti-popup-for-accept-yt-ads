@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Suppression Popup YouTube",
+    "version": "0.001",
+    "description": "Supprime automatiquement la pop-up anti ADBLOCK YouTube.",
+    "permissions": [
+      "activeTab",
+      "https://www.youtube.com/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+      }
+    },
+    "icons": {
+      "16": "16.png",
+      "48": "48.png",
+      "128": "128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
